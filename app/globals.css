@@ -1,0 +1,137 @@
+:root {
+  --bs-success-rgb: 69, 180, 77;
+  --footer-bg-rgb: rgb(59, 61, 86);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* category section */
+.category_card {
+  flex-basis: 16.65%;
+}
+.category_image_wrapper {
+  height: 7rem;
+  width: 8rem;
+  margin: 0rem auto;
+}
+
+/* category section */
+.price_section {
+  font-weight: 600;
+}
+.main_price {
+  text-decoration: line-through;
+}
+.product_image_wrapper {
+  width: 12rem;
+  height: 12rem;
+  margin: 0rem auto;
+}
+.product_card .card-body {
+  border-top: 1px solid var(--bs-border-color-translucent);
+}
+.discount_tag {
+  position: absolute;
+  top: 7%;
+  left: 7%;
+  padding: 1rem 0.7rem;
+  font-weight: 600;
+  border-radius: 50%;
+}
+.support-box {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e9e7e7;
+  border-bottom: 0;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+}
+.support-box .icon-box {
+  height: 80px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.support-box .title {
+  font-size: 17px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 600;
+}
+.content-box p {
+  font-size: 14px;
+  color: #a1a1a1;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.banner_image_wrapper {
+  height: 55vh;
+}
+.banner_section .d-flex {
+  gap: 1rem;
+}
+.support_box_wrapper {
+  flex-basis: 19%;
+}
+
+.footer-main {
+  background-color: var(--footer-bg-rgb);
+}
+
+.footer-main h3 {
+  font-size: 17px;
+  color: white;
+  text-transform: uppercase;
+  /* margin-bottom: 1rem; */
+}
+.footer-main a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding-left: 0;
+}
+#nav_accordion .nav-link {
+  font-size: 0.9rem;
+  color: black;
+  text-transform: uppercase;
+}
+.parent-link{
+  display: flex;
+gap:0.4rem;
+}
+.parent-link img{
+  width: 1.5rem;
+}
+.parent-link::after {
+  position: absolute;
+  right: 6px;
+  top: 10px;
+  content: "\f054";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 13px;
+}
