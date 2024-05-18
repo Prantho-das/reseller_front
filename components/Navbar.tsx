@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { BiShoppingBag } from "react-icons/bi";
 import { FaMagnifyingGlass } from "react-icons/fa6";
@@ -82,9 +83,9 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-light" href="#">
+                    <Link className="nav-link text-light" href="/checkout">
                       <BiShoppingBag />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

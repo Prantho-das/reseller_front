@@ -11,7 +11,7 @@ const CategoryCard = () => {
         </div>
 
         <div className="card-body text-dark">
-          <Link href="#">
+          <Link href="/category/something">
             <h5 className="text-center">Android Phone</h5>
           </Link>
         </div>

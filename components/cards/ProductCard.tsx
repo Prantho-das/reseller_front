@@ -12,7 +12,7 @@ const ProductCard = () => {
           <Image className="card-img-top" src="/vercel.svg" alt="" fill />
         </div>
         <div className="card-body text-dark">
-          <Link href="#">
+          <Link href="/details/something">
             <h6 className="card-title">Android Phone</h6>
             <div className="price_section text-success bold mt-1">
               <span className="main_price text-muted me-2">$345.99</span>
